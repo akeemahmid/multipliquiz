@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { quiz } from "../app/data/data";
-import congrat from '../public/congrat.png'
+import congrat from "../public/congrat.png";
 type Question = {
   question: string;
   answers: string[];
@@ -143,15 +143,16 @@ const Entrypage = () => {
           </section>
         ) : (
           <section className="flex flex-col items-center w-auto text-center md:max-w-[500px] md:w-[500px] rounded-3xl border-1 border-[#3a2d52] shadow-xs shadow-[#a66cff] p-5">
-          <div className="flex items-center  justify-center  border-1 border-[#3a2d52] rounded-full p-5 mb-7">
-              <Image src={congrat} alt="name" width={50} height={50}/>
-          </div>
+            <div className="flex items-center  justify-center  border-1 border-[#3a2d52] rounded-full p-5 mb-7">
+              <Image src={congrat} alt="name" width={50} height={50} />
+            </div>
             <h1 className=" mb-3 font-bold text-3xl text-white">
               Quiz Completed!
             </h1>
             <h4 className="font-semibold text-lg text-white">
-              Here's how you performed
+              Here&apos;s how you performed
             </h4>
+
             <div className="w-full space-y-3  rounded-3xl py-5 my-[7%] border-1 border-[#3a2d52] shadow-xs shadow-[#a66cff] text-white font-bold">
               <h3 className="text-2xl">
                 Total score : <span>{percent} %</span>
