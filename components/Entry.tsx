@@ -150,7 +150,7 @@ const Entrypage = () => {
               Quiz Completed!
             </h1>
             <h4 className="font-semibold text-lg text-white">
-              {`Here's how you performed`}
+              Here is how you performed
             </h4>
 
             <div className="w-full space-y-3  rounded-3xl py-5 my-[7%] border-1 border-[#3a2d52] shadow-xs shadow-[#a66cff] text-white font-bold">
