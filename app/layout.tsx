@@ -31,7 +31,7 @@ export default function RootLayout({
         <main className="transition-all transform ease-in-out duration-1000 delay-1200 flex-grow container mx-auto px-4 ">
           {children}
         </main>
-        <div className="flex w-full items-end justify-end-safe px-8 mt-[2%]">
+        <div className="flex w-full items-end justify-end-safe px-8 mt-[5%]">
           <a
             href="https://x.com/haakimii__"
             className="rounded-3xl p-4 bg-gradient-to-r text-white  from-[#a66cff] to-[#3E3170] font-bold text-[16px] flex items-center gap-2"
