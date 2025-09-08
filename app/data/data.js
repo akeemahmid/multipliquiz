@@ -86,38 +86,44 @@ export const quiz = {
       ],
       correctAnswer: "Shaaran Lakshminarayanan",
     },
-     {
+    {
       id: 8,
-      question: "What are multipli.fi's goals for yield premiums and risk management?",
+      question:
+        "What are multipli.fi's goals for yield premiums and risk management?",
       answers: [
         " Ignoring risk management in favor of high APY ",
         "Focusing on zero-yield products for maximum safety",
         "Aiming for a 500-800 basis points premium over U.S. Treasury yields on stablecoins, with extra yields via protected DeFi strategies and AI-powered AlphaIQ™ for risk-adjusted management",
         "Targeting yields below U.S. Treasury rates with high-risk strategies",
       ],
-      correctAnswer: "Aiming for a 500-800 basis points premium over U.S. Treasury yields on stablecoins, with extra yields via protected DeFi strategies and AI-powered AlphaIQ™ for risk-adjusted management",
+      correctAnswer:
+        "Aiming for a 500-800 basis points premium over U.S. Treasury yields on stablecoins, with extra yields via protected DeFi strategies and AI-powered AlphaIQ™ for risk-adjusted management",
     },
     {
       id: 9,
-      question: "What makes the Crystal allocation significant in multipli.fi's current campaign?",
+      question:
+        "What makes the Crystal allocation significant in multipli.fi's current campaign?",
       answers: [
         " It's a minor bonus with no TGE impact ",
         "Allocated 24.7 bps (potentially worth millions) to yappers, serving as a major factor in final allocations at Token Generation Event (TGE)",
         " Limited to team members only",
         "Focused solely on short-term trading ",
       ],
-      correctAnswer: " Allocated 24.7 bps (potentially worth millions) to yappers, serving as a major factor in final allocations at Token Generation Event (TGE)",
+      correctAnswer:
+        "Allocated 24.7 bps (potentially worth millions) to yappers, serving as a major factor in final allocations at Token Generation Event (TGE)",
     },
     {
       id: 10,
-      question: "What recent metrics highlight the success of multipli.fi's Crystal program as of early September 2025?",
+      question:
+        "What recent metrics highlight the success of multipli.fi's Crystal program as of early September 2025?",
       answers: [
         " Distribution of 100,000 crystals to 100 users with 50% holding rate ",
         " Limited to 1,000 crystals total for all users ",
         " Over 400,000 crystals distributed in the last 7 days to over 3,140 yappers, with an 80% holding rate",
         "No distributions yet, as it's in testing phase ",
       ],
-      correctAnswer: "  Over 400,000 crystals distributed in the last 7 days to over 3,140 yappers, with an 80% holding rate",
+      correctAnswer:
+        " Over 400,000 crystals distributed in the last 7 days to over 3,140 yappers, with an 80% holding rate",
     },
   ],
 };
