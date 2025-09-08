@@ -146,24 +146,24 @@ const Entrypage = () => {
             <div className="flex items-center  justify-center  border-1 border-[#3a2d52] rounded-full p-5 mb-7">
               <Image src={congrat} alt="name" width={50} height={50} />
             </div>
-            <h1 className=" mb-3 font-bold text-3xl text-white">
+            <h1 className=" mb-3 font-bold text-2xl text-white">
               Quiz Completed!
             </h1>
-            <h4 className="font-semibold text-lg text-white">
+            <h4 className="font-medium text-xl text-white">
               Here is how you performed
             </h4>
 
-            <div className="w-full space-y-3  rounded-3xl py-5 my-[7%] border-1 border-[#3a2d52] shadow-xs shadow-[#a66cff] text-white font-bold">
-              <h3 className="text-2xl">
+            <div className="w-full space-y-3  rounded-3xl py-5 my-[7%] border-1 border-[#3a2d52] shadow-xs shadow-[#a66cff] text-white font-semibold">
+              <h3 className="text-[18px]  md:text-xl">
                 Total score : <span>{percent} %</span>
               </h3>
-              <h3 className="text-2xl">
+                  <h3 className="text-[18px]  md:text-xl">
                 Correct Answers :{" "}
                 <span className="text-xl font-semibold text-green-700 ">
                   {result.correctAnswers}
                 </span>
               </h3>
-              <h3 className="text-2xl">
+               <h3 className="text-[18px]  md:text-xl">
                 Wrong Answers :{" "}
                 <span className="text-xl font-semibold text-red-700">
                   {result.wrongAnswers}
