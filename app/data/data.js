@@ -67,13 +67,13 @@ export const quiz = {
       id: 6,
       question: "Who are the founders of multipli.fi? ",
       answers: [
-        "Nakul Gupta, Shaaran Lakshminarayanan, and Ritumbhara Bhatnagar",
+        "Nakul Gupta, Shaaran Lakshminarayanan, Ritumbhara Bhatnagar and Bhavesh Praveen ",
         "Only Shaaran Lakshminarayanan as a solo founder",
         "A team of anonymous developers without named founders",
         "Founders from major banks like JPMorgan",
       ],
       correctAnswer:
-        "Nakul Gupta, Shaaran Lakshminarayanan, and Ritumbhara Bhatnagar",
+        "Nakul Gupta, Shaaran Lakshminarayanan, Ritumbhara Bhatnagar and Bhavesh Praveen ",
     },
     {
       id: 7,
